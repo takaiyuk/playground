@@ -2,13 +2,13 @@
 
 
 # @task
-# def run(ctx):
+# def run(ctx):  # type: ignore
 #     """Run the main function"""
 #     ctx.run("poetry run python -m src")
 
 
 # @task
-# def format(ctx):
+# def format(ctx):  # type: ignore
 #     """Format the code"""
 #     ctx.run(
 #         """
