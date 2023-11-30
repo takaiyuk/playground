@@ -2,19 +2,19 @@
 
 ## Install
 
-```shellscript
+```shell
 poetry install
 ```
 
 ## Run
 
-```shellscript
+```shell
 poetry run invoke run
 ```
 
 ## Format
 
-```shellscript
+```shell
 poetry run invoke format
 ```
 

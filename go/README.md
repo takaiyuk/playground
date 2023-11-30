@@ -2,6 +2,6 @@
 
 ## Run
 
-```shellscript
+```shell
 go run main.go
 ```

@@ -2,7 +2,7 @@
 
 ## Run
 
-```shellscript
+```shell
 cargo make
 ```
 

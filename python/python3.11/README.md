@@ -2,20 +2,20 @@
 
 ## Install
 
-```shellscript
+```shell
 $ poetry install
 ```
 
 ## Run
 
-```shellscript
-poetry run python -m src
+```shell
+poetry run invoke run
 ```
 
 ## Format
 
-```shellscript
-poetry run black . && poetry run isort .
+```shell
+poetry run invoke format
 ```
 
 ## Invoke tasks
