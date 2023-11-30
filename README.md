@@ -1,6 +1,6 @@
 # playground
 
-Playground for several langugaes to run locally.
+Playground for running several languages locally.
 
 Now supports Go, Python, and Rust.
 
