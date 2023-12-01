@@ -1,3 +1,3 @@
-module github.com/takaiyuk/playground/go
+module github.com/takaiyuk/playground/template/go
 
 go 1.21
