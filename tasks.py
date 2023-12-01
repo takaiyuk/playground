@@ -13,7 +13,6 @@ def _create_workspace() -> None:
 
 def _init(target: str, suffix: str | None) -> None:
     _create_workspace()
-    uuid = uuid4()
     src = Path(f"template/{target}")
     # dst 生成の際は python/python3.10 → python3.10 にリネームしたい
     target_short = str(Path(target).name)
@@ -21,6 +20,7 @@ def _init(target: str, suffix: str | None) -> None:
         if suffix is not None:
             dst = Path(f"{WORKSPACE_DIR}/{target_short}_{suffix}")
         else:
+            uuid = uuid4()
             dst = Path(f"{WORKSPACE_DIR}/{target_short}_{uuid}")
         if not dst.exists():
             break
